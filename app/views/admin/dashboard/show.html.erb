@@ -11,9 +11,8 @@
     <tr>
       <th scope="col">Total categories in the database</th>
       <th scope="col"><%= @category_count %></th>
-      <th scope="col"><%= link_to 'All Categories', class: 'btn btn-info' %>
+      <th scope="col"><%= link_to 'All Categories', [:admin, :categories], class: 'btn btn-info' %>
       </section></th>
-      #implement or delete later
     </tr>
   </tbody>
 </table>
