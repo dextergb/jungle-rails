@@ -31,8 +31,7 @@ RSpec.describe Product, type: :model do
     end
     
     it 'will not save if category is nil' do
-      @category = Category.new({name: "test"})
-      @product = @category.products.new(name: 'hat', price: 10, quantity: 50, category: nil)
+      @product = Product.new(name: 'hat', price: 10, quantity: 50)
       expect(@product).to_not be_valid
       expect(@product.errors.full_messages).to include("Category can't be blank")
     end
