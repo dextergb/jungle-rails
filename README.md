@@ -6,8 +6,6 @@ A mini e-commerce application built with Rails 4.2 that allows users to purchase
 
 ## Skills on Display
 
-- [x] Navigating an existing code-base
-- [x] Learn a new paradigm, language and framework
 - [x] Ruby
 - [x] Rails 4.2
 - [x] ERB Templating
