@@ -25,10 +25,9 @@ RSpec.feature "Add to cart", type: :feature, js: true do
     end
 
     # DEBUG
-    save_screenshot
+    save_screenshot('add_cart.png')
 
     # VERIFY
     expect(page).to have_text('My Cart (1)')
-    save_screenshot('add_cart.png')
   end
 end
